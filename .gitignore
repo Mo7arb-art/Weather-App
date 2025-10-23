@@ -1,0 +1,39 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build outputs (CRA, Vite, etc.)
+build/
+dist/
+.esbuild/
+.vite/
+.cache/
+
+# Environment and local config
+.env
+.env.*
+*.local
+
+# Testing
+coverage/
+jest/
+.vitest/
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Misc
+*.log
+*.pid
